@@ -2,16 +2,25 @@ body {
   min-height: 100vh;
   background: #f5f5f5;
   margin: 0;
+
+  font-family: Consolas, Menlo, Monaco, "Lucida Console", "Liberation Mono",
+    "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Courier New", monospace,
+    serif;
 }
 
 .wrapper {
-  height: 2500px;
+  /* height: 2500px; */
+  font-size: 16px;
+  padding: 40px;
+}
+
+.spacing {
+  margin: 20px 0;
 }
 
 .header {
   margin: 0;
   font-size: 40px;
-  padding: 20px;
 }
 
 .CodeMirror {
