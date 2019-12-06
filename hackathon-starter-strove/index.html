@@ -10,8 +10,13 @@
     <link rel="shortcut icon" type="image/png" href="../img/favicon-192.png" />
     <link rel="shortcut icon" sizes="196x196" href="../img/favicon-192.png" />
     <link rel="apple-touch-icon" href="../img/favicon-192.png" />
+    <script src="lib/codemirror.js"></script>
+    <link rel="stylesheet" href="lib/codemirror.css" />
+    <script src="mode/javascript/javascript.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="theme/dracula.css" />
 
-    <link rel="stylesheet" href="styles.css?v=1.0" />
+    <link rel="stylesheet" href="styles.css" />
   </head>
 
   <body>
@@ -19,6 +24,7 @@
       <h2 class="header">
         Hackathon starter
       </h2>
+      <textarea id="code"></textarea>
       <iframe
         title="Strove.io"
         wmode="transparent"
