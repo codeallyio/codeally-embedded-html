@@ -4,27 +4,29 @@
   <head>
     <meta charset="utf-8" />
 
-    <title>Strove embedded example</title>
+    <title>Strove embedded - fullstack example</title>
     <meta name="description" content="Strove embed" />
     <meta name="author" content="Strove" />
-    <link rel="shortcut icon" type="image/png" href="../img/favicon-192.png" />
-    <link rel="shortcut icon" sizes="196x196" href="../img/favicon-192.png" />
-    <link rel="apple-touch-icon" href="../img/favicon-192.png" />
-    <script src="lib/codemirror.js"></script>
-    <link rel="stylesheet" href="lib/codemirror.css" />
-    <script src="mode/javascript/javascript.js"></script>
+    <link rel="shortcut icon" type="image/png" href="/img/favicon-192.png" />
+    <link rel="shortcut icon" sizes="196x196" href="/img/favicon-192.png" />
+    <link rel="apple-touch-icon" href="/img/favicon-192.png" />
+    <script src="../lib/codemirror.js"></script>
+    <link rel="stylesheet" href="../lib/codemirror.css" />
+    <script src="../mode/javascript/javascript.js"></script>
     <script src="script.js"></script>
-    <link rel="stylesheet" href="theme/dracula.css" />
+    <link rel="stylesheet" href="../theme/dracula.css" />
 
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="../styles.css" />
   </head>
 
   <body>
     <div class="wrapper">
       <h2 class="header">
-        Hackathon starter
+        Strove embedded fullstack example
       </h2>
-      <textarea id="code"></textarea>
+      <div class="spacing">To embed strove use a code like this:</div>
+      <textarea id="fullstackCode"></textarea>
+      <div class="spacing">This is the result:</div>
       <iframe
         title="Strove.io"
         wmode="transparent"
@@ -32,9 +34,6 @@
         src="https://strove.io/embed/?repoUrl=https://github.com/stroveio/hackathon-starter-strove&goBackToRoute=/hackathon-starter-strove"
         sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"
       ></iframe>
-      <h2 class="header">
-        Hackathon starter
-      </h2>
     </div>
   </body>
 </html>
