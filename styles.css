@@ -9,9 +9,19 @@ body {
 }
 
 .wrapper {
-  /* height: 2500px; */
   font-size: 16px;
   padding: 40px;
+}
+
+.docsLinkWrapper {
+  margin-top: 20px;
+}
+
+.docsLink {
+  text-decoration: none;
+  color: black;
+  font-style: italic;
+  margin-top: 20px;
 }
 
 .spacing {
