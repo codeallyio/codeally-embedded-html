@@ -1,44 +1,49 @@
 <!DOCTYPE html>
 
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
 
-<head>
-  <meta charset="utf-8" />
+    <title>Strove embedded example</title>
+    <meta name="description" content="Strove embed" />
+    <meta name="author" content="Strove" />
+    <link rel="shortcut icon" type="image/png" href="/img/favicon-192.png" />
+    <link rel="shortcut icon" sizes="196x196" href="/img/favicon-192.png" />
+    <link rel="apple-touch-icon" href="/img/favicon-192.png" />
+    <script src="lib/codemirror.js"></script>
+    <link rel="stylesheet" href="lib/codemirror.css" />
+    <script src="mode/javascript/javascript.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="theme/dracula.css" />
 
-  <title>Strove embedded example</title>
-  <meta name="description" content="Strove embed" />
-  <meta name="author" content="Strove" />
-  <link rel="shortcut icon" type="image/png" href="/img/favicon-192.png" />
-  <link rel="shortcut icon" sizes="196x196" href="/img/favicon-192.png" />
-  <link rel="apple-touch-icon" href="/img/favicon-192.png" />
-  <script src="lib/codemirror.js"></script>
-  <link rel="stylesheet" href="lib/codemirror.css" />
-  <script src="mode/javascript/javascript.js"></script>
-  <script src="script.js"></script>
-  <link rel="stylesheet" href="theme/dracula.css" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
 
-  <link rel="stylesheet" href="styles.css" />
-</head>
-
-<body>
-  <div class="wrapper">
-    <h2 class="header">
-      Strove embedded example
-    </h2>
-    <div class="spacing">Strove can be used on any website with just few lines of code.</div>
-    <div class="editorWrapper" style="margin-right: 40px;">
-      <textarea id="code"></textarea>
+  <body>
+    <div class="wrapper">
+      <h2 class="header">
+        Strove embedded example
+      </h2>
+      <div class="spacing">
+        Strove can be used on any website with just few lines of code.
+      </div>
+      <div class="editorWrapper" style="margin-right: 40px;">
+        <textarea id="code"></textarea>
+      </div>
+      <div class="docsLinkWrapper">
+        Docs:
+        <a class="docsLink" href="https://docs.strove.io/embedding-strove"
+          >https://docs.strove.io/embedding-strove</a
+        >
+      </div>
+      <h4 class="spacing">Live demo</h4>
+      <iframe
+        title="Strove.io"
+        wmode="transparent"
+        style="height: 550px; position: relative; overflow: hidden; border-top: 2px solid black; border-bottom: 2px solid black; width: 100vw; left: -40px;"
+        src="https://20024.vm-68a8g022ab6e066952c13ead7.strove.io/embed/?repoUrl=https://github.com/stroveio/hackathon-starter-strove"
+        sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"
+      ></iframe>
     </div>
-    <div class="docsLinkWrapper">
-      Docs:
-      <a class="docsLink" href="https://docs.strove.io/embedding-strove">https://docs.strove.io/embedding-strove</a>
-    </div>
-    <h4 class="spacing">Live demo</h4>
-    <iframe title="Strove.io" wmode="transparent"
-      style="height: 550px; position: relative; overflow: hidden; border-top: 2px solid black; border-bottom: 2px solid black; width: 100vw; left: -40px;"
-      src="https://strove.io/embed/?repoUrl=https://github.com/stroveio/hackathon-starter-strove"
-      sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
-  </div>
-</body>
-
+  </body>
 </html>
