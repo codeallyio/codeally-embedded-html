@@ -13,7 +13,7 @@ window.onload = () => {
     title="codeally.io"
     wmode="transparent"
     style="width: 100%; height: 550px; position: relative; overflow: hidden; border: 0;"
-    src="https://codeally.io/embed/?repoUrl=https://github.com/codeallyio/hackathon-starter-codeally&goBackTo=https://embed.codeally.io/hackathon-starter-codeally"
+    src="https://codeally.io/embed/?repoUrl=https://codeally.io/embed/?repoUrl=https://github.com/moT01/.learn-bash-scripting-by-building-five-programs.git&goBackTo=https://github.com/moT01/.learn-bash-scripting-by-building-five-programs.git"
     sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"
   ></iframe>
   `);
