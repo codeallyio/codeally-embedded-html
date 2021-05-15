@@ -13,7 +13,7 @@ window.onload = () => {
     title="codeally.io"
     wmode="transparent"
     style="width: 100%; height: 550px; position: relative; overflow: hidden; border: 0;"
-    src="https://codeally.io/embed/?repoUrl=https://github.com/stroveio/boilerplate-project-timestamp&goBackTo=https://embed.codeally.io/boilerplate-project-timestamp"
+    src="https://codeally.io/embed/?repoUrl=https://github.com/codeallyio/boilerplate-project-timestamp&goBackTo=https://embed.codeally.io/boilerplate-project-timestamp"
     sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"
   ></iframe>
   `);

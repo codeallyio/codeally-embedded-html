@@ -13,7 +13,7 @@ window.onload = () => {
       title="codeally.io"
       wmode="transparent"
       style="width: 100%; height: 550px; position: relative; overflow: hidden; border: 0;"
-      src="https://codeally.io/embed/?repoUrl=https://github.com/stroveio/metric-imperial-converter-fcc-solution&goBackTo=https://embed.codeally.io/metric-imperial-converter-fcc-solution"
+      src="https://codeally.io/embed/?repoUrl=https://github.com/codeallyio/metric-imperial-converter-fcc-solution&goBackTo=https://embed.codeally.io/metric-imperial-converter-fcc-solution"
       sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"
     ></iframe>
     `);
