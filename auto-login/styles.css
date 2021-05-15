@@ -5,10 +5,6 @@ body {
   width: 100vw;
   overflow-x: hidden;
 
-  /* font-family: Consolas, Menlo, Monaco, "Lucida Console", "Liberation Mono",
-    "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Courier New", monospace,
-    serif; */
-
   font-family: "Futura", "Helvetica Neue For Number", -apple-system,
     BlinkMacSystemFont, "Segoe UI", Roboto, "PingFang SC", "Hiragino Sans GB",
     "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif;
