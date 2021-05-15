@@ -9,7 +9,7 @@ window.onload = () => {
 <iframe
   title="codeally.io"
   wmode="transparent"
-  style="width: 100%; height: 550px; position: relative; overflow: hidden; border: 0;"
+  style="height: 550px; position: relative; overflow: hidden; border-top: 2px solid black; border-bottom: 2px solid black; width: 100vw; left: -40px;"
   src="https://codeally.io/embed/?repoUrl=https://github.com/codeallyio/hackathon-starter-codeally"
   sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"
 ></iframe>
